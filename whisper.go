@@ -12,7 +12,6 @@ import (
 // set -x CGO_CFLAGS_ALLOW "-mfma|-mf16c"
 #cgo CFLAGS: -I. -O3 -std=c11 -fPIC -pthread -mfma -mf16c -mavx -msse3 -mavx2
 #cgo CXXFLAGS: -I. -O3 -std=c++11 -fPIC -pthread
-#cgo darwin LDFLAGS: -framework Accelerate
 #include "whisper.h"
 #include <stdlib.h>
 
