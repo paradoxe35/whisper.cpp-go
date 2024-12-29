@@ -6,7 +6,9 @@ import (
 )
 
 /*
-#cgo LDFLAGS: -L. -lstdc++ -static-libstdc++
+#cgo LDFLAGS: -L. -lstdc++
+#cgo windows LDFLAGS: -static
+#cgo !windows LDFLAGS: -static-libstdc++
 #cgo darwin LDFLAGS: -framework Accelerate
 // set -x CGO_CFLAGS_ALLOW "-mfma|-mf16c"
 #cgo CFLAGS: -I. -O3 -std=c11 -fPIC -pthread -mfma -mf16c -mavx -msse3 -mavx2
