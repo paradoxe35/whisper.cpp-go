@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	whisper "github.com/kardianos/whisper.cpp"
+	whisper "github.com/paradoxe35/whisper.cpp-go"
 )
 
 ///////////////////////////////////////////////////////////////////////////////

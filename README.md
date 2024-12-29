@@ -3,7 +3,7 @@
 ```
 fish$ set -x CGO_CFLAGS_ALLOW "-mfma|-mf16c"
 bash$ export CGO_CFLAGS_ALLOW="-mfma|-mf16c"
-go get github.com/kardianos/whisper.cpp@latest
+go get github.com/paradoxe35/whisper.cpp-go@latest
 ```
 
 [![Actions Status](https://github.com/ggerganov/whisper.cpp/workflows/CI/badge.svg)](https://github.com/ggerganov/whisper.cpp/actions)

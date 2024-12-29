@@ -3,7 +3,7 @@ package tts
 import (
 	"errors"
 
-	whisper "github.com/kardianos/whisper.cpp"
+	whisper "github.com/paradoxe35/whisper.cpp-go"
 )
 
 var (

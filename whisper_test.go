@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/go-audio/wav"
-	whisper "github.com/kardianos/whisper.cpp"
+	whisper "github.com/paradoxe35/whisper.cpp-go"
 	"github.com/stretchr/testify/assert"
 )
 

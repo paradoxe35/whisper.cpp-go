@@ -7,7 +7,7 @@ import (
 	"time"
 
 	wav "github.com/go-audio/wav"
-	whisper "github.com/kardianos/whisper.cpp/stt"
+	whisper "github.com/paradoxe35/whisper.cpp-go/stt"
 )
 
 func Process(model whisper.Model, path string, flags *Flags) error {

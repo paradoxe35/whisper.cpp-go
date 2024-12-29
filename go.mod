@@ -1,4 +1,4 @@
-module github.com/kardianos/whisper.cpp
+module github.com/paradoxe35/whisper.cpp-go
 
 go 1.19
 
